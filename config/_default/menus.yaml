@@ -14,7 +14,7 @@ main:
     url: /#talks
     weight: 12
   - name: Blogs
-    url: https://jiaxun-li.github.io/blog/
+    url: https://jiaxun-li.github.io/blogs/
     weight: 13
     params.external: true
  # - name: News
