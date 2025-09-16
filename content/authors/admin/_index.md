@@ -10,7 +10,7 @@ first_name: Jiaxun
 last_name: Li
 
 # Pronouns (optional)
-pronouns: he/him
+pronouns: 李 佳讯
 
 # Status emoji
 status:
