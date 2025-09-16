@@ -54,7 +54,7 @@ education:
     date_start: 2024-09-01
     date_end: 2029-06-30
     summary: |
-      Thesis on _Scaling Laws for Neural Language Models_. Supervised by Prof. Andrew Ng. Published 5 papers in NeurIPS and ICML, with 2 best paper awards.
+      End date estimated
     button:
       text: 'Read Thesis'
       url: 'https://example.com/thesis.pdf'
