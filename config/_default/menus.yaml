@@ -14,7 +14,7 @@ main:
     url: /#talks
     weight: 12
   - name: Blogs
-    url: https://blog.danielgu.org
+    url: https://jiaxun-li.github.io/blog/
     weight: 13
     params.external: true
  # - name: News
