@@ -1,5 +1,5 @@
 ---
-title: 'Generation through the lens of learning theory'
+title: 'On Generation in Metric Spaces'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -9,12 +9,8 @@ authors:
   - Vinod Raman
   - Ambuj Tewari
 
-# Author notes (optional)
-author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
 
-date: '2025-07-02T00:00:00Z'
+date: '2026-07-02T00:00:00Z'
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2011-01-01T00:00:00Z'
@@ -25,13 +21,13 @@ publishDate: '2011-01-01T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *Conference on Learning Theory, 2025*
-publication_short: In COLT, 2025
+publication: In *Annual Conference on Neural Information Processing Systems, 2026*
+publication_short: In NeurIPS [Forthcoming], 2026
 
-abstract: We study generation through the lens of statistical learning theory. First, we abstract and formalize the results of Gold [1967], Angluin [1979], Angluin [1980] and Kleinberg and Mullainathan [2024] in terms of a binary hypothesis class defined over an abstract example space. Then, we extend the notion of "generation" from Kleinberg and Mullainathan [2024] to two new settings, we call "uniform" and "non-uniform" generation, and provide a characterization of which hypothesis classes are uniformly and non-uniformly generatable. As is standard in learning theory, our characterizations are in terms of the finiteness of a new combinatorial dimension termed the Closure dimension. By doing so, we are able to compare generatability with predictability (captured via PAC and online learnability) and show that these two properties of hypothesis classes are incompatible -- there are classes that are generatable but not predictable and vice versa. Finally, we extend our results to capture prompted generation and give a complete characterization of which classes are prompt generatable, generalizing some of the work by Kleinberg and Mullainathan [2024].
+abstract: We study generation in separable metric instance spaces. We extend the language generation framework from Kleinberg and Mullainathan [2024] beyond countable domains by defining novelty through metric separation and allowing asymmetric novelty parameters for the adversary and the generator. We introduce the (ε,ε′)-closure dimension, a scale-sensitive analogue of closure dimension, which yields characterizations of uniform and non-uniform generatability and a sufficient condition for generation in the limit. Along the way, we identify a sharp geometric contrast. Namely, in doubling spaces, including all finite-dimensional normed spaces, generatability is stable across novelty scales and invariant under equivalent metrics. In general metric spaces, however, generatability can be highly scale-sensitive and metric-dependent; even in the natural infinite-dimensional Hilbert space ℓ2, all notions of generation may fail abruptly as the novelty parameters vary.
 
 # Summary. An optional shortened abstract.
-summary: We study generation in statistical learning theory and characterize when a hypothesis class supports uniform, non-uniform, or prompted generation. These characterizations use a new combinatorial measure, the Closure dimension, and show that a class can be generatable without being predictable, or predictable without being generatable.
+
 
 tags:
   - Language Generation
@@ -40,11 +36,9 @@ tags:
 featured: true
 
 # Standard identifiers for auto-linking
-title_url: "https://proceedings.mlr.press/v291/raman25a.html"
+title_url: "https://arxiv.org/pdf/2602.07710"
 # Custom links
 links:
-  - type: slides
-    url: /uploads/COLT2025pre.pdf
   # - type: code
   #   url: https://github.com/HugoBlox/hugo-blox-builder
   # - type: dataset

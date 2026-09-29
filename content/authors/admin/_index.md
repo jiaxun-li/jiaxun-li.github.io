@@ -34,10 +34,8 @@ organizations:
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'jasonli@umich.edu'
+    url: 'mailto:jasonli@umich.edu'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com
   - icon: brands/github
     url: https://github.com/jiaxun-li
   - icon: brands/linkedin
@@ -61,7 +59,7 @@ education:
     date_end: 2023-12-15
     summary: |
       GPA: 4.0/4.0
-  - area: BS in Mathematics
+  - area: B.Sc. in Mathematics (Honors Program)
     institution: Xi'an Jiaotong University
     date_start: 2020-09-01
     date_end: 2024-06-30
@@ -115,9 +113,9 @@ awards:
       Highest award for students in Xi'an Jiaotong University
 ---
 
-I am a 2nd year Ph.D. student in the Statistics Department at the University of Michigan advised by Ambuj Tewari. Before that, I studied Mathematics at Xi'an Jiaotong University and spent a year as a visiting student at the University of California, Berkeley. 
+I am a 3rd year Ph.D. student in the Statistics Department at the University of Michigan advised by Ambuj Tewari and Saptarshi Chakraborty. Before that, I studied Mathematics at Xi'an Jiaotong University and spent a year as a visiting student at the University of California, Berkeley. 
 
-I enjoy exploring diverse areas of statistics. In the past, I have worked on pandemic modeling and causal inference. My currect research interests lie in learning theory and its connections to modern statistical and machine learning problems.
+I enjoy exploring diverse areas of statistics and machine learning. My current interest lies in language generation and LLM content detection. In the past, I have worked on pandemic modeling and causal inference.
 
-Beyong academics, I like video games, photography, graphic design, movies and music.
+Beyond academics, I enjoy play indie games and tennis. I also like photography, movies and progressive rock.
 
