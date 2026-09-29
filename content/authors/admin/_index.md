@@ -52,14 +52,15 @@ education:
     date_start: 2024-09-01
     date_end: 2029-06-30
     summary: |
-      End date estimated
+      Advanced to candidacy
   - area: Visiting Student
     institution: University of California, Berkeley
     date_start: 2023-01-07
     date_end: 2023-12-15
     summary: |
       GPA: 4.0/4.0
-  - area: B.Sc. in Mathematics (Honors Program)
+  - area: B.Sc. in Mathematics
+    honors: Honors Program
     institution: Xi'an Jiaotong University
     date_start: 2020-09-01
     date_end: 2024-06-30

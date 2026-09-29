@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="290 272 690 690" role="img" aria-labelledby="title desc">
+  <title id="title">讯 · Jiaxun Li — sans serif</title>
+  <desc id="desc">Editable favicon version of the original full-width sans-serif 讯/pi logo, with darker gray, even strokes and reduced outer padding.</desc>
+  <g id="gray-strokes" fill="#4F535E">
+    <path id="speech-dot" d="M 382,312 Q 392,303 402,313 L 455,367 Q 465,378 455,389 L 425,417 Q 414,427 404,417 L 349,362 Q 340,352 349,341 Z"/>
+    <path id="speech-radical" d="M 333,474 H 456 Q 466,474 466,484 V 814 L 504,786 Q 524,774 527,795 L 529,824 Q 530,837 520,845 L 434,912 Q 423,922 412,915 L 402,906 Q 397,901 397,891 V 532 H 333 Q 324,532 324,523 V 484 Q 324,474 333,474 Z"/>
+    <rect id="middle-crossbar" x="510" y="598" width="244" height="55" rx="7"/>
+  </g>
+  <g id="pi-strokes" fill="#384879">
+    <rect id="pi-top" x="501" y="370" width="377" height="58" rx="7"/>
+    <path id="pi-center" d="M 605,420 H 676 V 922 Q 676,931 667,931 H 614 Q 605,931 605,922 Z"/>
+    <path id="pi-right-hook" d="M 784,420 H 856 V 769 C 856,816 864,851 884,856 Q 895,859 898,851 V 817 Q 898,807 908,807 H 936 Q 946,807 946,817 V 877 C 946,904 929,918 898,918 C 861,918 833,904 813,877 C 793,850 784,814 784,769 Z"/>
+  </g>
+</svg>
