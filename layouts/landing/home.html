@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jiaxun Li · Statistics & Machine Learning</title>
+  <meta name="description" content="Jiaxun Li is a Statistics PhD student at the University of Michigan working on learning theory, generative modeling, robust ML evaluation, and statistical inference.">
+  {{ with resources.Get "media/icon.png" }}<link rel="icon" type="image/png" href="{{ .RelPermalink }}"><link rel="apple-touch-icon" href="{{ .RelPermalink }}">{{ end }}
+  <link rel="canonical" href="{{ .Permalink }}">
+  <link rel="stylesheet" href="{{ "css/academic.css" | relURL }}">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header><a class="wordmark" href="{{ "/" | relURL }}">{{ with resources.Get "media/logo.svg" }}<img class="site-logo" src="{{ .RelPermalink }}" width="36" height="36" alt="">{{ end }}Jiaxun Li <span lang="zh">李佳讯</span></a><nav aria-label="Main navigation"><a href="#papers">Research</a><a href="#background">About</a><a href="{{ "uploads/resume.pdf" | relURL }}">CV</a><a href="#contact">Contact</a></nav></header>
+<main id="main">
+  {{ $person := site.GetPage "/authors/admin" }}
+  <section class="intro" aria-labelledby="name">
+    <div><p class="eyebrow">University of Michigan · Statistics</p><h1 id="name">Jiaxun Li</h1><p class="lead">Learning theory, generation,<br> and reliable statistical inference.</p>
+    <p>I am a Statistics PhD student at the University of Michigan, advised by Ambuj Tewari and Saptarshi Chakraborty. I study the theoretical foundations of generative learning and the statistical principles behind reliable machine learning evaluation.</p>
+    <p>My work connects mathematical characterizations of generation with benchmark design, Python experiments, and finite-sample statistical inference.</p>
+    <div class="links"><a class="button" href="{{ "uploads/resume.pdf" | relURL }}">Download CV <span aria-hidden="true">↗</span></a><a href="mailto:jasonli@umich.edu">jasonli@umich.edu</a><a href="https://scholar.google.com/citations?user=f_DzQJYAAAAJ&amp;hl=en">Google Scholar</a><a href="https://github.com/jiaxun-li">GitHub</a></div>
+    <p class="availability">I am looking for 2027 summer internship opportunities.</p></div>
+    {{ with $person.Resources.GetMatch "*avatar*" }}{{ $portrait := .Fill "440x540 Center" }}<img class="portrait" src="{{ $portrait.RelPermalink }}" width="220" height="270" alt="Jiaxun Li outdoors">{{ end }}
+  </section>
+  <section id="papers" aria-labelledby="research-title"><div class="section-heading"><h2 id="research-title">Selected research</h2><span>Theory · Evaluation · Inference</span></div>
+  {{ range slice "Language Generation" "Metric Generation" "Robust detection" "Exact Stratified Inference" }}
+    {{ with site.GetPage (printf "/publication/%s" .) }}
+    <article class="paper"><div class="venue">{{ .Params.publication_short | default .Params.publication | markdownify }}</div><h3><a href="{{ .Params.title_url }}">{{ .Title }}</a></h3><p class="authors">{{ range $index, $author := .Params.authors }}{{ if $index }}, {{ end }}{{ if eq $author "admin" }}<strong>Jiaxun Li</strong>{{ else }}{{ $author }}{{ end }}{{ end }}{{ if .Params.author_notes }} <span class="note">· First two authors contributed equally</span>{{ end }}</p><p>{{ .Params.summary }}</p><div class="paper-links"><a href="{{ .Params.title_url }}">Paper ↗</a>{{ range .Params.links }}<a href="{{ .url }}">{{ .name | default (.type | humanize) }} ↗</a>{{ end }}</div></article>
+    {{ end }}
+  {{ end }}
+  <p class="earlier">Earlier work: <a href="https://arxiv.org/abs/2309.08126">Analysis of a stochastic SIR model with media effects</a> · Jiaxun Li and Yanni Xiao · Preprint, 2023.</p>
+  </section>
+  <div id="background" role="group" aria-label="About">
+  <section id="education" aria-labelledby="education-title">
+    <div class="section-heading"><h2 id="education-title">Education</h2></div>
+    <div class="section-body">
+      <p><strong>University of Michigan</strong><br>PhD in Statistics · 2024–2029 (expected)<br>Advisors: Ambuj Tewari &amp; Saptarshi Chakraborty</p>
+      <p><strong>University of California, Berkeley</strong><br>Visiting Student · 2023<br>GPA: 4.0/4.0</p>
+      <p><strong>Xi’an Jiaotong University</strong><br>BS in Mathematics, Honors Program · 2024<br>GPA: 4.21/4.30</p>
+    </div>
+  </section>
+  <section id="talks" aria-labelledby="talks-title">
+    <div class="section-heading"><h2 id="talks-title">Talks &amp; Presentations</h2></div>
+    <div class="section-body">
+      <p><strong>Generation through the lens of learning theory</strong><br>Contributed presentation · Conference on Learning Theory (COLT 2025)<br><a href="{{ "uploads/COLT2025pre.pdf" | relURL }}">Slides ↗</a></p>
+    </div>
+  </section>
+  <section id="teaching" aria-labelledby="teaching-title">
+    <div class="section-heading"><h2 id="teaching-title">Teaching</h2></div>
+    <div class="section-body">
+      <p><strong>Graduate Student Instructor · University of Michigan</strong></p>
+      <p>Selected courses:</p>
+      <ul>
+        <li>STATS 485: Capstone Seminar · Winter 2026</li>
+        <li>STATS 510: Probability and Distribution Theory · Fall 2025</li>
+        <li>STATS 412: Introduction to Probability and Statistics · Spring 2025</li>
+      </ul>
+      <p><strong>Outstanding Graduate Student Instructor Team Award</strong><br>STATS 485: Capstone Seminar · Winter 2026</p>
+    </div>
+  </section>
+  </div>
+  <section id="contact" class="contact" aria-labelledby="contact-title"><h2 id="contact-title">Let’s connect.</h2><p>For research collaborations and Summer 2027 internship opportunities:</p><a class="contact-email" href="mailto:jasonli@umich.edu">jasonli@umich.edu ↗</a><p class="personal">Outside research, I enjoy indie games, tennis, photography, movies, and progressive rock. <a href="https://jiaxun-li.github.io/blogs/">Personal blog ↗</a></p></section>
+</main><footer>© {{ now.Year }} Jiaxun Li <span>Ann Arbor, Michigan</span></footer>
+</body></html>
+
+
+

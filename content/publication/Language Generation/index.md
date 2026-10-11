@@ -26,7 +26,7 @@ publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
 publication: In *Conference on Learning Theory, 2025*
-publication_short: In COLT, 2025
+publication_short: COLT 2025
 
 abstract: We study generation through the lens of statistical learning theory. First, we abstract and formalize the results of Gold [1967], Angluin [1979], Angluin [1980] and Kleinberg and Mullainathan [2024] in terms of a binary hypothesis class defined over an abstract example space. Then, we extend the notion of "generation" from Kleinberg and Mullainathan [2024] to two new settings, we call "uniform" and "non-uniform" generation, and provide a characterization of which hypothesis classes are uniformly and non-uniformly generatable. As is standard in learning theory, our characterizations are in terms of the finiteness of a new combinatorial dimension termed the Closure dimension. By doing so, we are able to compare generatability with predictability (captured via PAC and online learnability) and show that these two properties of hypothesis classes are incompatible -- there are classes that are generatable but not predictable and vice versa. Finally, we extend our results to capture prompted generation and give a complete characterization of which classes are prompt generatable, generalizing some of the work by Kleinberg and Mullainathan [2024].
 
@@ -68,8 +68,7 @@ links:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects:
-  - example
+projects: []
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
@@ -78,13 +77,3 @@ projects:
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
-
-{{% callout note %}}
-Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-{{% callout note %}}
-Create your slides in Markdown - click the _Slides_ button to check out the example.
-{{% /callout %}}
-
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).

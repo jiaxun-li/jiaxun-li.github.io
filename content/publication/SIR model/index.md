@@ -1,5 +1,5 @@
 ---
-title: "Exact and Conservative Inference for the Average Treatment Effect in Stratified Experiments with Binary Outcomes"
+title: "Analysis of a stochastic SIR model with media effects"
 authors:
 - admin
 - Yanni Xiao
@@ -13,10 +13,10 @@ publishDate: "2026-01-01T00:00:00Z"
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ["article-journal"]
+publication_types: ["manuscript"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Under Review"
+publication: "Preprint, 2023"
 publication_short: ""
 
 abstract: In this study, we investigate a stochastic SIR model with media effects. The uniqueness and the existence of a global positive solution are studied. The sufficient conditions of extinction and persistence of the disease are established. We obtain the basic reproduction number RS0 for stochastic system, which can act as the threshold given small environmental noise. Note that large noise can induce the disease extinction with probability of 1, suggesting that environmental noises can not be ignored when investigating threshold dynamics. Further, inclusion of media induced behaviour changes does not affect the threshold itself, which is similar to the conclusion of the deterministic models. However, numerical simulations suggest that media impacts induce the disease infection decline.
@@ -67,13 +67,3 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
-
-{{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}}
-
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).

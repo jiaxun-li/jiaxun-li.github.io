@@ -1,0 +1,58 @@
+Editing your academic website
+
+Folder: E:\网站\jiaxun-li.github.io
+
+1. Open this folder in a text editor such as VS Code.
+2. Open preview-internships.ps1 in PowerShell to start the local preview.
+   Or run: powershell -ExecutionPolicy Bypass -File "E:\网站\jiaxun-li.github.io\preview-internships.ps1"
+3. Open http://127.0.0.1:1314/ in your browser. Leave PowerShell running.
+4. Edit the source files below and save. The preview refreshes automatically.
+   Stop the preview by pressing Ctrl+C in that PowerShell window.
+
+WHAT TO EDIT
+
+Homepage biography, internship sentence, education, teaching and navigation:
+  layouts\landing\home.html
+  Change the text between HTML tags, keeping tags and {{ ... }} template expressions intact.
+  For example, search for 'I am looking for' to change the internship sentence.
+  Search for 'University of California, Berkeley' to change the Berkeley entry.
+
+Colors, font sizes, spacing, mobile layout:
+  static\css\academic.css
+  The first line defines --accent:#245fa8 (blue), --paper (background),
+  --ink (body text), --muted and --line. Change a hex color and save.
+
+Paper titles, authors, status, summaries and links:
+  content\publication\<paper folder>\index.md
+  The homepage reads these publication files automatically.
+  Edit title, publication_short, summary, title_url and links near the top.
+  Preserve YAML indentation and quote text when needed.
+  To add a paper to the homepage, create its publication folder/file and
+  add that folder name to the 'range slice' list in layouts\landing\home.html.
+
+Main CV download:
+  static\uploads\resume.pdf
+  Replace this file with your updated PDF, retaining the same filename.
+
+Portrait and underlying author profile:
+  content\authors\admin\
+  The avatar image supplies the homepage photo. _index.md stores the author
+  profile used by the original theme and other pages. Homepage biography and
+  education currently live in home.html, so edit that file to change what
+  appears on the new homepage; keep the profile consistent when appropriate.
+
+PREVIOUS VERSION
+
+The original homepage is preserved in Git commit dc3b710 ('logo+education change').
+Today's redesign has not been committed, pushed or published. The live website
+has not been replaced by this work. The original content\_index.md remains.
+The new layouts\landing\home.html overrides the theme's original landing-page
+layout. To compare designs safely, use a separate copy/check-out of dc3b710.
+Do not use a hard reset on the working folder: it contains your pre-existing
+updated CV and the new edits. Ask for a separate old-version preview if needed.
+
+PUBLICATION
+
+Saving files changes the local preview only. Publishing is a separate step.
+Review the preview and changes before committing/pushing through the repository's
+deployment workflow. Nothing is published automatically by the preview script.

@@ -1,0 +1,30 @@
+Website revision prepared 2026-10-11. NOT PUBLISHED.
+
+Local preview: http://127.0.0.1:1314/
+Restart with preview-internships.ps1.
+Screenshots: .local-tools/internship-desktop.png and .local-tools/internship-mobile.png
+Production build: .local-tools/internship-preview/
+
+AUDIT AND CHANGES
+Replaced the homepage presentation with a minimal, responsive academic layout using the existing Hugo site and portrait. Preserved the existing publication pages and personal blog link.
+Introduced research identity and Summer 2027 availability above the publications, with explicit email, CV, Scholar, GitHub, and separate Tech and Quant resume links.
+Promoted COLT 2025 and NeurIPS 2026; added concise research summaries and the official NeurIPS poster link.
+Corrected the SIR paper title, which incorrectly repeated the causal-inference title on the live site, and its status to preprint (2023).
+Removed demo/tutorial text from all five publication pages.
+Removed the generic linkedin.com link; corrected placeholder site URL and search metadata, PhD capitalization, expected graduation month, and undergraduate GPA.
+The existing modified static/uploads/resume.pdf was not overwritten. New resumes are separate files.
+
+VERIFICATION
+Official NeurIPS poster page verified in browser: https://neurips.cc/virtual/2026/loc/paris/poster/151982
+It lists On Generation in Metric Spaces, Jiaxun Li / Vinod Raman / Ambuj Tewari, and a December 2026 poster session. User also confirmed acceptance. Label: accepted, forthcoming.
+COLT proceedings: https://proceedings.mlr.press/v291/raman25a.html
+COLT full paper on advisor site: https://www.ambujtewari.com/research/li25generation.pdf
+Full paper first page orders Jiaxun Li*, Vinod Raman*, Ambuj Tewari and explicitly states equal contribution. The proceedings landing-page metadata uses Raman first; the website follows the full paper and user's CV, with equal-contribution note.
+SIR preprint: https://arxiv.org/abs/2309.08126
+Under-review statuses and personal implementation contributions follow user-provided CV/context, not an independently verified editorial record.
+
+TESTS
+Hugo production build succeeded: 68 pages, five static files. git diff --check passed.
+Desktop and 390px mobile browser inspection passed; mobile document has no horizontal overflow. Portrait loaded; research navigation and both resume link targets were inspected.
+Two pre-existing build warnings remain from unrelated template demo content referencing /publication/preprint and /publication/conference-paper. These are outside the new homepage.
+No commit, push, deployment, or public website replacement was performed. Approval is required before publishing.

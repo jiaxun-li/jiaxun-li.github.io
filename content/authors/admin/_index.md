@@ -23,7 +23,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Phd Student in Statistics
+role: PhD Student in Statistics
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -38,8 +38,6 @@ profiles:
     label: E-mail Me
   - icon: brands/github
     url: https://github.com/jiaxun-li
-  - icon: brands/linkedin
-    url: https://www.linkedin.com
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=f_DzQJYAAAAJ&hl=en
 
@@ -50,7 +48,7 @@ education:
   - area: PhD in Statistics 
     institution: University of Michigan
     date_start: 2024-09-01
-    date_end: 2029-06-30
+    date_end: 2029-09-30
     summary: |
       Advanced to candidacy
   - area: Visiting Student
@@ -65,7 +63,7 @@ education:
     date_start: 2020-09-01
     date_end: 2024-06-30
     summary: |
-      GPA: 3.96/4.0
+      GPA: 4.21/4.30
 
 
 # Skills
