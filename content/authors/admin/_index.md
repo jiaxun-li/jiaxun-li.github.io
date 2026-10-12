@@ -48,7 +48,7 @@ education:
   - area: PhD in Statistics 
     institution: University of Michigan
     date_start: 2024-09-01
-    date_end: 2029-09-30
+    date_end: 2029-05-31
     summary: |
       Advanced to candidacy
   - area: Visiting Student
