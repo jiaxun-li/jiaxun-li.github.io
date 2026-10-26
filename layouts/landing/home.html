@@ -23,7 +23,7 @@
     {{ with $person.Resources.GetMatch "*avatar*" }}{{ $portrait := .Fill "440x540 Center" }}<img class="portrait" src="{{ $portrait.RelPermalink }}" width="220" height="270" alt="Jiaxun Li outdoors">{{ end }}
   </section>
   <section id="papers" aria-labelledby="research-title"><div class="section-heading"><h2 id="research-title">Selected research</h2></div>
-  {{ range slice "Language Generation" "Metric Generation" "Robust detection" "Exact Stratified Inference" }}
+  {{ range slice "No-regret Generation" "Language Generation" "Metric Generation" "Robust detection" "Exact Stratified Inference" }}
     {{ with site.GetPage (printf "/publication/%s" .) }}
     <article class="paper"><div class="venue">{{ .Params.publication_short | default .Params.publication | markdownify }}</div><h3><a href="{{ .Params.title_url }}">{{ .Title }}</a></h3><p class="authors">{{ $authorNotes := .Params.author_notes | default (slice) }}{{ range $index, $author := .Params.authors }}{{ if $index }}, {{ end }}{{ if eq $author "admin" }}<strong>Jiaxun Li</strong>{{ else }}{{ $author }}{{ end }}{{ if lt $index (len $authorNotes) }}{{ if eq (index $authorNotes $index) "Equal contribution" }}<sup>*</sup>{{ end }}{{ end }}{{ end }}</p><p>{{ .Params.summary }}</p><div class="paper-links"><a href="{{ .Params.title_url }}">Paper ↗</a>{{ range .Params.links }}<a href="{{ .url }}">{{ .name | default (.type | humanize) }} ↗</a>{{ end }}</div></article>
     {{ end }}

@@ -24,7 +24,8 @@ publication_types: ['manuscript']
 publication: Under Review
 publication_short: Under Review
 
-abstract: We introduce no-regret generation, which requires a generator to make a sublinear number of mistakes uniformly over all demonstration sequences and compatible target languages. We also formulate an agnostic variant that allows arbitrary demonstrations that may not be compatible with any languages. For both settings, we introduce tree-based mistake-forcing dimensions that exactly characterize finite-horizon minimax complexity and establish necessary and sufficient conditions for no-regret generation. Our characterizations reveal a rich spectrum of generation rates: up to constant rescaling, every admissible nondecreasing profile is attainable in both the realizable and agnostic settings. Finally, we connect generation complexity to online prediction: for language classes of finite Littlestone dimension $d$, we obtain realizable mistake bounds of $O(d\log(1+T/d))$ and agnostic regret bounds of $O(\sqrt{dT\log(1+T/d)})$ The realizable bound is optimal up to universal constants.
+abstract: >-
+  We introduce no-regret generation, which requires a generator to make a sublinear number of mistakes uniformly over all demonstration sequences and compatible target languages. We also formulate an agnostic variant that allows arbitrary demonstrations that may not be compatible with any languages. For both settings, we introduce tree-based mistake-forcing dimensions that exactly characterize finite-horizon minimax complexity and establish necessary and sufficient conditions for no-regret generation. Our characterizations reveal a rich spectrum of generation rates: up to constant rescaling, every admissible nondecreasing profile is attainable in both the realizable and agnostic settings. Finally, we connect generation complexity to online prediction: for language classes of finite Littlestone dimension $d$, we obtain realizable mistake bounds of $O(d\log(1+T/d))$ and agnostic regret bounds of $O(\sqrt{dT\log(1+T/d)})$. The realizable bound is optimal up to universal constants.
 
 summary: We introduce no-regret generation, where a generator makes a sublinear number of mistakes uniformly over all demonstration sequences and compatible target languages, and extend this framework to the agnostic setting. We establish necessary and sufficient conditions for no-regret generation and show that finite Littlestone dimension guarantees no-regret generation in both the realizable and agnostic settings.
 
@@ -37,9 +38,7 @@ featured: true
 # Standard identifiers for auto-linking
 title_url: "https://arxiv.org/abs/2610.23641"
 # Custom links
-links:
-  #- name: Conference
-    url: https://neurips.cc/virtual/2026/loc/paris/poster/151982
+links: []
   # - type: code
   #   url: https://github.com/HugoBlox/hugo-blox-builder
   # - type: dataset
